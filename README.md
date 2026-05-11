@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0078d4&height=220&section=header&text=Nassid%20%F0%9F%9A%80&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=DevOps%20%E2%80%A2%20Cloud%20%E2%80%A2%20Cybersecurity&descSize=18&descAlignY=55&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0078d4&height=220&section=header&text=nsid2003%20%F0%9F%9A%80&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=DevOps%20%E2%80%A2%20Cloud%20%E2%80%A2%20Cybersecurity&descSize=18&descAlignY=55&animation=fadeIn"/>
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
@@ -24,7 +24,7 @@
 ## 🧑‍💻 À propos de moi
 
 ```yaml
-name: Nassid
+name: NGASSA SIEWE ISMAEL DARYL
 location: France 🇫🇷
 education: Mastère Cybersécurité & Cloud @ IPSSI (2026-2028)
 role: Étudiant en alternance DevOps / Cloud Engineer
