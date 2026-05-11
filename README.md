@@ -11,8 +11,8 @@
 <br/>
 
 <!-- PROFILE BADGES -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TON-LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ton-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daryl-ngassa-07044a223)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ismaelngassa720@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://ton-portfolio.com)
 
 <img src="https://komarev.com/ghpvc/?username=nsid2003&style=for-the-badge&color=0078d4&label=PROFILE+VIEWS" alt="Profile Views"/>
@@ -423,8 +423,8 @@ Développement d'un outil d'automatisation de compilation inspiré de GNU Make.
 
 <div align="center">
 
-<a href="https://linkedin.com/in/TON-LINKEDIN"><img src="https://img.shields.io/badge/-%40TON--LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:ton-email@example.com"><img src="https://img.shields.io/badge/-ton--email@example.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/daryl-ngassa-07044a223"><img src="https://img.shields.io/badge/-daryl--ngassa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:ismaelngassa720@gmail.com"><img src="https://img.shields.io/badge/-ismaelngassa720@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://github.com/nsid2003"><img src="https://img.shields.io/badge/-nsid2003-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
