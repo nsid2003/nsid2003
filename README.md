@@ -36,7 +36,7 @@ interests:
   - Cloud Architecture (Azure / AWS)
   - CI/CD Pipelines
   - Container Orchestration
-  - Offensive & Defensive Security
+  - System administration
 motto: "Automate everything, secure everything."
 ```
 
@@ -109,34 +109,253 @@ motto: "Automate everything, secure everything."
 
 ---
 
-## 🏗️ Projet Phare — DevOps Home Lab
+## 🚀 Projets
 
-<div align="center">
+<br/>
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    🏠 SELF-HOSTED DEVOPS LAB                    │
-├─────────────┬──────────────┬──────────────┬────────────────────┤
-│  Vagrant    │  Terraform   │   Ansible    │   GitLab CI/CD     │
-│  (VMs)      │  (IaC)       │   (Config)   │   (Pipelines)      │
-├─────────────┴──────┬───────┴──────────────┴────────────────────┤
-│                    │                                            │
-│   K3s Cluster      │      Monitoring Stack                     │
-│   ┌──────────┐     │      ┌──────────────────┐                 │
-│   │ Node 1   │     │      │ Prometheus       │                 │
-│   │ Node 2   │     │      │ Grafana          │                 │
-│   │ Node 3   │     │      └──────────────────┘                 │
-│   └──────────┘     │                                            │
-│                    │      Secrets Management                    │
-│                    │      ┌──────────────────┐                 │
-│                    │      │ HashiCorp Vault  │                 │
-│                    │      └──────────────────┘                 │
-└────────────────────┴───────────────────────────────────────────┘
-```
+### ⚙️ DevOps & Infrastructure as Code
 
-</div>
+<details>
+<summary>🏠 <strong>Self-Hosted DevOps Lab</strong> &nbsp;—&nbsp; Infrastructure enterprise-grade complète</summary>
+<br/>
 
-> Un lab complet simulant un environnement **enterprise-grade** avec provisioning automatisé, orchestration de conteneurs, pipelines CI/CD, monitoring centralisé et gestion des secrets.
+Déploiement d'un lab complet reproduisant un environnement enterprise-grade en local. Chaque composant est provisionné et configuré de manière entièrement automatisée.
+
+| Composant | Technologie |
+|:---|:---|
+| Provisioning des VMs | Vagrant |
+| Infrastructure as Code | Terraform |
+| Gestion de configuration | Ansible |
+| Pipelines CI/CD | GitLab CI/CD |
+| Orchestration de conteneurs | K3s (3 nœuds) |
+| Monitoring | Prometheus + Grafana |
+| Gestion des secrets | HashiCorp Vault |
+
+</details>
+
+---
+
+<details>
+<summary>📦 <strong>Automatisation et Provisioning d'Infrastructure (IaC)</strong></summary>
+<br/>
+
+Conception et déploiement d'une infrastructure entièrement automatisée pour le provisionnement des environnements de développement et de production.
+
+- **Infrastructure as Code** — Déploiement reproductible des ressources serveur via Terraform
+- **Gestion de configuration** — Standardisation des configurations système et applicative via playbooks Ansible
+- **Virtualisation** — Gestion d'environnements Vagrant pour garantir la parité iso-prod des environnements de test
+
+`Terraform` `Ansible` `Vagrant`
+
+</details>
+
+---
+
+<details>
+<summary>🌐 <strong>Déploiement d'un serveur web Apache2 avec Ansible</strong> &nbsp;—&nbsp; mars 2026</summary>
+<br/>
+
+Automatisation complète du déploiement et de la configuration d'un serveur Apache2 via Ansible, en remplacement des tâches d'administration manuelles par un processus de provisioning fiable, reproductible et scalable.
+
+- **Playbooks Ansible (YAML)** — Automatisation de l'installation, du démarrage du service et de l'élévation des privilèges (`become: true`)
+- **Templating dynamique Jinja2** — Génération de pages HTML personnalisées exploitant les Ansible Facts (hostname, variables custom)
+- **Gestion de l'inventaire SSH** — Configuration du fichier `hosts.ini`, gestion des utilisateurs et authentification par clés SSH
+- **Environnement virtualisé (VirtualBox)** — Configuration réseau Bridge, résolution des conflits Machine-ID lors du clonage de VMs
+- **Gestion des ports** — Modification dynamique de `ports.conf` via Ansible pour préparer des architectures plus complexes
+
+`Ansible` `Apache2` `Jinja2` `Linux` `VirtualBox`
+
+</details>
+
+---
+
+<details>
+<summary>⚖️ <strong>Déploiement d'un équilibreur de charge HAProxy</strong> &nbsp;—&nbsp; mars 2026</summary>
+<br/>
+
+Mise en place d'une infrastructure web répartie avec HAProxy pour assurer la haute disponibilité et l'optimisation des performances en environnement Linux.
+
+- **Reverse Proxy** — Interception du trafic HTTP entrant (port 80) et redirection vers les serveurs back-end du réseau interne
+- **Load Balancing Round-Robin** — Distribution équitable des requêtes entre des serveurs Nginx et Apache2 hétérogènes
+- **Monitoring en temps réel** — Déploiement et sécurisation du tableau de bord de statistiques HAProxy
+- **Health Checks** — Vérifications continues de l'état des serveurs back-end pour garantir la disponibilité du service
+- **Administration système** — Débogage réseau avancé avec `systemd`, `journalctl` et `ss` (analyse de ports TCP)
+
+`HAProxy` `Nginx` `Apache2` `Linux`
+
+</details>
+
+---
+
+<details>
+<summary>🔒 <strong>Déploiement de serveurs Web et reprise après sinistre</strong> &nbsp;—&nbsp; févr. 2026</summary>
+<br/>
+
+Déploiement, sécurisation et maintenance d'un environnement de services web axé sur la résilience opérationnelle.
+
+- Configuration d'un serveur web sur port non standard avec gestion fine des paquets et des services
+- Sécurisation de la couche d'administration via clés SSH et audits réseau
+- Analyse des anomalies de trafic avec des outils de traitement de texte pour identifier des menaces potentielles
+- Implémentation d'une stratégie de sauvegarde et de restauration robuste pour la protection des données
+
+`Linux` `SSH` `Administration système`
+
+</details>
+
+---
+
+<details>
+<summary>🛠️ <strong>Sauvetage et Initialisation du Système</strong> &nbsp;—&nbsp; févr. 2026</summary>
+<br/>
+
+Stabilisation d'un environnement serveur dégradé à travers quatre défis critiques d'administration système.
+
+- **Nettoyage du système de fichiers** — Localisation et suppression des fichiers volumineux, organisation des logs pour récupérer de l'espace disque
+- **Atténuation des processus déviants** — Diagnostic de charge élevée et terminaison contrôlée des processus incontrôlables
+- **Configuration sécurisée** — Audit des permissions de répertoires et application de contrôles d'accès stricts
+- **Standardisation de l'environnement** — Variables shell persistantes et alias d'équipe pour uniformiser les environnements de développement
+
+`Linux` `Shell` `Administration système`
+
+</details>
+
+---
+
+<br/>
+
+### 🌐 Réseau & Systèmes
+
+<details>
+<summary>🗺️ <strong>Conception d'une Infrastructure Réseau Multi-Site (Simulation ISP)</strong> &nbsp;—&nbsp; EPITA</summary>
+<br/>
+
+Simulation d'une architecture réseau globale de type « Internet » interconnectant fournisseurs d'accès (ISP) et réseaux d'entreprises.
+
+- **Routing & Switching** — Configuration de routeurs et switchs, segmentation VLAN et routage inter-réseaux (Backbone, ISP, Clients)
+- **Services réseau** — Déploiement de serveurs DHCP pour l'adressage dynamique et gestion des passerelles résidentielles
+- **Sécurité & NAT** — Configuration SNAT/DNAT/Masquerading et règles de pare-feu pour sécuriser les sous-réseaux
+
+`GNS3` `TCP/IP` `VLAN` `NAT` `DHCP`
+
+</details>
+
+---
+
+<details>
+<summary>🖥️ <strong>Déploiement d'Infrastructure Web sous Windows Server (IIS / WordPress)</strong></summary>
+<br/>
+
+Conception et mise en œuvre d'une architecture web complète hébergée sur Windows Server.
+
+- **IIS** — Installation et configuration avancée du rôle Internet Information Services pour l'hébergement de sites dynamiques
+- **DNS** — Configuration d'un serveur DNS local avec gestion de zones et résolution de domaines personnalisés (`wordpress.local`)
+- **WordPress** — Déploiement applicatif complet incluant la gestion des prérequis techniques et des bases de données
+- **Architecture Client-Serveur** — Interconnexion réseau et validation des accès depuis des postes clients Windows
+
+`Windows Server` `IIS` `DNS` `WordPress`
+
+</details>
+
+---
+
+<details>
+<summary>📞 <strong>Déploiement d'une Solution de VoIP (Téléphonie sur IP)</strong></summary>
+<br/>
+
+Mise en place d'une infrastructure de téléphonie interne pour moderniser les communications d'entreprise.
+
+- **Architecture IPBX** — Installation et configuration du serveur Elastix (basé sur Asterisk)
+- **Gestion des communications** — Paramétrage des extensions, routes d'appels et services pour assurer la fluidité des communications internes
+- **Protocole SIP** — Configuration et validation des flux voix sur le réseau
+
+`Elastix` `Asterisk` `VoIP` `SIP`
+
+</details>
+
+---
+
+<details>
+<summary>🔍 <strong>Sécurisation et Monitoring d'Infrastructure IT</strong></summary>
+<br/>
+
+Mise en place d'une architecture sécurisée et supervisée pour garantir la disponibilité et la sécurité des services.
+
+- **Supervision proactive** — Déploiement de Zabbix pour le monitoring des serveurs et équipements réseau avec configuration d'alertes
+- **Sécurité périmétrique** — Configuration de pfSense pour la gestion des accès, le filtrage de paquets et l'implémentation de VPN
+- **Réseau sans fil** — Déploiement sécurisé d'un réseau Wi-Fi d'entreprise
+
+`Zabbix` `pfSense` `VPN` `Wi-Fi`
+
+</details>
+
+---
+
+<br/>
+
+### 💻 Développement Bas Niveau — EPITA
+
+<details>
+<summary>🐚 <strong>42sh — Interpréteur de Commandes UNIX (Shell POSIX)</strong></summary>
+<br/>
+
+Développement d'un shell complet conforme à la norme POSIX, reproduisant le comportement de Bash.
+
+- **Analyse syntaxique** — Conception d'un Lexer/Parser transformant les commandes utilisateur en Arbre Syntaxique Abstrait (AST)
+- **Gestion des processus** — Manipulation avancée des appels système (`fork`, `exec`, `wait`) pour l'exécution et le contrôle des jobs
+- **Fonctionnalités avancées** — Pipes, redirections, substitutions de commandes, structures de contrôle (`if`, `while`, `for`)
+
+`C` `POSIX` `UNIX` `Parsing`
+
+</details>
+
+---
+
+<details>
+<summary>🌍 <strong>HTTP Daemon — Serveur Web HTTP/1.1</strong></summary>
+<br/>
+
+Réalisation complète d'un serveur web respectant les standards RFC du protocole HTTP/1.1, conçu pour fonctionner en tant que démon système.
+
+- **Architecture Daemon UNIX** — Transformation en service d'arrière-plan avec gestion des signaux pour un arrêt propre (*graceful shutdown*)
+- **Haute performance** — I/O non bloquantes et multiplexage via `epoll` pour gérer un grand nombre de connexions simultanées
+- **Traitement des requêtes** — Parsing HTTP complet (méthodes GET/HEAD, headers, codes de réponse et erreurs)
+- **Configuration dynamique** — Gestion des Virtual Hosts, ports et routes via fichiers de configuration
+
+`C` `HTTP/1.1` `epoll` `UNIX`
+
+</details>
+
+---
+
+<details>
+<summary>🧠 <strong>Malloc — Librairie d'Allocation Mémoire Dynamique</strong></summary>
+<br/>
+
+Réécriture d'une bibliothèque d'allocation mémoire (`malloc`, `free`, `realloc`) en remplacement de l'implémentation standard de la libc.
+
+- **Gestion mémoire bas niveau** — Manipulation de la mémoire virtuelle via les appels système `mmap`/`munmap`
+- **Thread-Safety** — Sécurisation de l'allocateur pour les environnements multithreadés avec mutex POSIX (`pthread`)
+- **Optimisation** — Algorithmes de gestion de blocs pour réduire la fragmentation et optimiser les métadonnées
+
+`C` `mmap` `pthreads` `POSIX`
+
+</details>
+
+---
+
+<details>
+<summary>⚙️ <strong>Minimake — Moteur de Production Logicielle</strong></summary>
+<br/>
+
+Développement d'un outil d'automatisation de compilation inspiré de GNU Make.
+
+- **Parsing de Makefiles** — Analyse syntaxique des fichiers de configuration (règles, variables, cibles)
+- **Graphe de dépendances** — Construction d'un graphe pour déterminer l'ordre d'exécution des tâches et éviter les recompilations inutiles via la gestion des dates de modification
+- **Exécution** — Orchestration et lancement des commandes shell nécessaires à la construction du projet
+
+`C` `Makefile` `Build Systems` `Parsing`
+
+</details>
 
 ---
 
