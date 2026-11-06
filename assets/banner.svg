@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Ismael Daryl NGASSA SIEWE — Administrateur systèmes &amp; réseaux · DevOps · Cloud">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0H1200V170C1050 215 900 145 750 175C600 205 450 150 300 180C180 204 80 185 0 170Z" fill="url(#bg)"/>
+  <text x="600" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Ismael Daryl NGASSA SIEWE</text>
+  <text x="600" y="134" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#c9d1d9">Administrateur systèmes &amp; réseaux · DevOps · Cloud</text>
+</svg>
