@@ -13,7 +13,6 @@
 <!-- PROFILE BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daryl-ngassa-07044a223)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ismaelngassa720@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://ton-portfolio.com)
 
 <img src="https://komarev.com/ghpvc/?username=nsid2003&style=for-the-badge&color=0078d4&label=PROFILE+VIEWS" alt="Profile Views"/>
 
@@ -24,19 +23,20 @@
 ## 🧑‍💻 À propos de moi
 
 ```yaml
-name: NGASSA SIEWE ISMAEL DARYL
-location: France 🇫🇷
-education: Mastère Cybersécurité & Cloud @ IPSSI (2026-2028)
-role: Étudiant en alternance DevOps / Cloud Engineer
+name: NGASSA SIEWE Ismael Daryl
+location: Argenteuil, France 🇫🇷
+role: Administrateur systèmes & réseaux (alternance) @ XpFibre — DevOps / exploitation
+daily_stack: [Ansible, AWX, GitLab CI/CD, Prometheus, Grafana, Zabbix]
+education: Mastère Cybersécurité & Cloud @ IPSSI (2026-2028, alternance)
 certifications:
   - ✅ Microsoft Azure Fundamentals (AZ-900)
-  - 🔄 HashiCorp Terraform Associate (003) — en préparation
+  - 🔄 HashiCorp Terraform Associate (004) — en préparation
 interests:
   - Infrastructure as Code
   - Cloud Architecture (Azure / AWS)
   - CI/CD Pipelines
   - Container Orchestration
-  - System administration
+  - Durcissement & sécurité système
 motto: "Automate everything, secure everything."
 ```
 
@@ -67,6 +67,8 @@ motto: "Automate everything, secure everything."
 <p>
   <img src="https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI/CD"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
+  <img src="https://img.shields.io/badge/AWX-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="AWX"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
@@ -74,6 +76,7 @@ motto: "Automate everything, secure everything."
 <p>
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
+  <img src="https://img.shields.io/badge/Zabbix-D40000?style=for-the-badge&logo=zabbix&logoColor=white" alt="Zabbix"/>
 </p>
 
 ### 🔐 Security
@@ -110,6 +113,51 @@ motto: "Automate everything, secure everything."
 ---
 
 ## 🚀 Projets
+
+> Chaque projet ci-dessous a son dépôt, un README détaillé (architecture, captures, choix justifiés) et un journal de troubleshooting.
+> Les dépôts **archivés** de mon profil sont des exercices de formation, pas des projets.
+
+### ☁️ Cloud Azure
+
+| Projet | Ce que ça montre | Stack |
+|:--|:--|:--|
+| [**Infrastructure cloud hybride & CI/CD**](https://github.com/nsid2003/azure-hybrid-cloud-cicd) | On-Prem ↔ Azure de A à Z : AD DS, Hub-Spoke, Azure Policy, File Sync, Entra Connect, ACR → ACI → ACA, Azure Migrate, CI/CD OIDC + Trivy, Sentinel | `Azure` `Bicep` `GitHub Actions` `Windows Server` |
+| [**Projet HALO — VPN Site-to-Site & migration**](https://github.com/nsid2003/azure-hybrid-s2s-migration-halo) | Datacenter Hyper-V relié à Azure en IPsec/IKEv2 (OPNsense), NVA + UDR, forced tunneling, DNS hybride, Azure Arc | `Azure` `AZ-700` `OPNsense` `Hyper-V` |
+| [**Hub-Spoke multi-tiers**](https://github.com/nsid2003/azure-hub-spoke-multitier) | Azure Firewall + UDR, VMSS + Load Balancer, SQL via Bastion, RBAC, Policy, Log Analytics, Recovery Services Vault | `Azure` `AZ-104` |
+| [**Bastion & serveur web en Terraform**](https://github.com/nsid2003/azure_terraform) | VNet segmenté, 2 NSG, Nginx via cloud-init, SSH par rebond uniquement | `Terraform` `AzureRM` |
+
+### 🟧 Cloud AWS & Infrastructure as Code
+
+| Projet | Ce que ça montre | Stack |
+|:--|:--|:--|
+| [**Secure Multi-Tenant AWS Platform**](https://github.com/nsid2003/secure-multitenant-aws-platform) | Clients isolés par VPC peering, admin par VPN OpenVPN/PKI, proxy sortant filtrant, KMS, CloudTrail, AWS Config, AWS Backup | `AWS` `Terraform` `Ansible` |
+| [**Automatisation AWS avec Terraform & Jenkins**](https://github.com/nsid2003/aws-terraform-jenkins-automation) | Job Jenkins paramétré (init / plan / apply / destroy) qui génère et applique la conf Terraform | `AWS` `Terraform` `Jenkins` |
+| [**Architecture AWS N-tiers avec ALB**](https://github.com/nsid2003/aws-ntier-terraform-alb) | ALB → 3 reverse proxies Nginx → 3 serveurs Apache privés sur 3 AZ, bastion, NAT Gateway | `AWS` `Terraform` |
+| [**TwinFleet** 🚧 *en cours, projet de groupe*](https://github.com/nsid2003/twinfleet) | Environnements jumeaux staging / prod depuis les mêmes modules Terraform et rôles Ansible, workflow Git par PR | `AWS` `Terraform` `Ansible` `GitHub Actions` |
+
+### 🛡️ Sécurité système
+
+| Projet | Ce que ça montre | Stack |
+|:--|:--|:--|
+| [**Durcissement Linux — niveau 1**](https://github.com/nsid2003/hardening-linux-lvl1) | Montages durcis, LUKS2 + LVM déverrouillé par clé USB, root désactivé, 2FA, GRUB protégé | `Arch Linux` `ANSSI` |
+| [**Durcissement Linux — niveau 2**](https://github.com/nsid2003/hardening-linux-lvl2) | sysctl ANSSI + script de conformité, PAM, SSH clé + OTP, sudo par OTP, auditd | `Arch Linux` `ANSSI` |
+| [**Durcissement Linux — niveau 3**](https://github.com/nsid2003/hardening-linux-lvl3) | Apache/PHP-FPM en HTTPS, iptables deny-by-default, fail2ban, proxy Squid à liste blanche | `Arch Linux` `iptables` |
+
+### 🏠 Self-hosting
+
+| Projet | Ce que ça montre | Stack |
+|:--|:--|:--|
+| [**HaloHub — plateforme self-hosted pour PME**](https://github.com/nsid2003/halohub-selfhosted-platform) | 21 services derrière Traefik, SSO + 2FA Authelia, CrowdSec, supervision, 4 réseaux Docker isolés, sauvegardes chiffrées | `Docker Compose` `Traefik` `Grafana` |
+
+### 🧰 Outils perso
+
+- [**Quiz de révision AZ-104**](https://github.com/nsid2003/az104) — 5 modules, utilisable sur mobile via [GitHub Pages](https://nsid2003.github.io/az104/)
+
+---
+
+## 🗂️ Autres réalisations
+
+<sub>Projets de formation et d'alternance sans dépôt public.</sub>
 
 <br/>
 
@@ -388,32 +436,6 @@ Développement d'un outil d'automatisation de compilation inspiré de GNU Make.
 
 <!-- ACTIVITY GRAPH -->
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=nsid2003&theme=github-compact&hide_border=true&bg_color=0d1117&color=0078d4&line=0078d4&point=FF6600&area=true&area_color=0078d4" alt="Activity Graph"/>
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nsid2003/nsid2003/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nsid2003/nsid2003/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/nsid2003/nsid2003/output/github-snake-dark.svg" />
-</picture>
-
-> ⚡ *Pour activer le snake, ajoute le workflow GitHub Actions fourni dans `.github/workflows/snake.yml`*
-
-</div>
-
----
-
-## 💡 Citation du jour
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote"/>
 
 </div>
 
