@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0078d4&height=200&section=header&text=Ismael%20Daryl%20NGASSA%20SIEWE&fontSize=40&fontColor=ffffff&fontAlignY=36&desc=Administrateur%20syst%C3%A8mes%20%26%20r%C3%A9seaux%20%C2%B7%20DevOps%20%C2%B7%20Cloud&descSize=18&descAlignY=56&animation=fadeIn" alt="Ismael Daryl NGASSA SIEWE"/>
+<img width="100%" src="assets/banner.svg" alt="Ismael Daryl NGASSA SIEWE — Administrateur systèmes & réseaux · DevOps · Cloud"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daryl_Ngassa-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daryl-ngassa)
 [![Email](https://img.shields.io/badge/Email-ismaelngassa720%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ismaelngassa720@gmail.com)
