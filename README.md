@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="assets/banner.svg" alt="Ismael Daryl NGASSA SIEWE — Administrateur systèmes & réseaux · DevOps · Cloud"/>
+<img width="100%" src="assets/banner.svg" alt="Ismael Daryl NGASSA SIEWE, administrateur systèmes et réseaux, DevOps et Cloud"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daryl_Ngassa-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daryl-ngassa)
 [![Email](https://img.shields.io/badge/Email-ismaelngassa720%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ismaelngassa720@gmail.com)
@@ -8,23 +8,23 @@
 
 </div>
 
-Administrateur systèmes & réseaux en alternance chez **XpFibre**, je travaille côté **exploitation et DevOps** : j'automatise, je supervise et je déploie. En parallèle, je suis en **Mastère Cybersécurité & Cloud à l'IPSSI** et je construis des projets d'infrastructure documentés de bout en bout, de l'architecture jusqu'au journal de troubleshooting.
+Je suis administrateur systèmes et réseaux en alternance chez **XpFibre**, dans l'équipe d'exploitation, et étudiant en **Mastère Cybersécurité & Cloud à l'IPSSI**. Vous trouverez ici mes projets d'infrastructure, chacun documenté avec son architecture, ses captures et les problèmes rencontrés en cours de route.
 
 ---
 
 ## Ce que je fais aujourd'hui
 
-**Alternance — XpFibre** · Administrateur systèmes & réseaux · Courbevoie
+**Administrateur systèmes et réseaux en alternance chez XpFibre** (Courbevoie)
 
 - **Automatisation** des tâches d'exploitation avec Ansible, orchestrée via AWX
 - **Supervision** des applications et de l'infrastructure avec Zabbix, Prometheus et Grafana
 - **Déploiement** des applications par pipelines CI/CD GitLab
 
-**Formation — IPSSI** · Mastère Cybersécurité & Cloud · 2026-2028, alternance 3 semaines entreprise / 1 semaine école
+**Mastère Cybersécurité & Cloud à l'IPSSI** (2026-2028), en alternance : 3 semaines en entreprise, 1 semaine à l'école
 
 **En cours**
 
-- [TwinFleet](https://github.com/nsid2003/twinfleet) — projet de groupe : environnements staging / prod jumeaux sur AWS (Terraform, Ansible, GitHub Actions)
+- [TwinFleet](https://github.com/nsid2003/twinfleet), projet de groupe : environnements staging / prod jumeaux sur AWS (Terraform, Ansible, GitHub Actions)
 - Préparation des certifications **HashiCorp Terraform Associate (004)** et **Microsoft AZ-104**
 
 ---
@@ -46,14 +46,14 @@ Administrateur systèmes & réseaux en alternance chez **XpFibre**, je travaille
 
 ## Projets
 
-Chaque projet a son dépôt, avec un README détaillé (architecture, captures, choix justifiés) et un journal de troubleshooting. Les dépôts **archivés** de mon profil sont des exercices de formation.
+Chaque dépôt contient un README détaillé avec les choix techniques et un journal de troubleshooting. Les dépôts archivés de mon profil sont des exercices de formation.
 
 ### Cloud Azure
 
 | Projet | Contenu | Stack |
 |:--|:--|:--|
 | [**Infrastructure cloud hybride & CI/CD**](https://github.com/nsid2003/azure-hybrid-cloud-cicd) | On-Prem ↔ Azure de A à Z : AD DS, Hub-Spoke, Azure Policy, File Sync, Entra Connect, ACR → ACI → ACA, Azure Migrate, CI/CD OIDC + Trivy, Sentinel | `Azure` `Bicep` `GitHub Actions` `Windows Server` |
-| [**Projet HALO — VPN Site-to-Site & migration**](https://github.com/nsid2003/azure-hybrid-s2s-migration-halo) | Datacenter Hyper-V relié à Azure en IPsec/IKEv2 (OPNsense), NVA + UDR, forced tunneling, DNS hybride, Azure Arc | `Azure` `OPNsense` `Hyper-V` |
+| [**Projet HALO : VPN Site-to-Site et migration**](https://github.com/nsid2003/azure-hybrid-s2s-migration-halo) | Datacenter Hyper-V relié à Azure en IPsec/IKEv2 (OPNsense), NVA + UDR, forced tunneling, DNS hybride, Azure Arc | `Azure` `OPNsense` `Hyper-V` |
 | [**Hub-Spoke multi-tiers**](https://github.com/nsid2003/azure-hub-spoke-multitier) | Azure Firewall + UDR, VMSS + Load Balancer, SQL via Bastion, RBAC, Policy, Log Analytics, Recovery Services Vault | `Azure` |
 | [**Bastion & serveur web en Terraform**](https://github.com/nsid2003/azure_terraform) | VNet segmenté, 2 NSG, Nginx via cloud-init, SSH par rebond uniquement | `Terraform` `AzureRM` |
 
@@ -70,19 +70,19 @@ Chaque projet a son dépôt, avec un README détaillé (architecture, captures, 
 
 | Projet | Contenu | Stack |
 |:--|:--|:--|
-| [**Durcissement Linux — niveau 1**](https://github.com/nsid2003/hardening-linux-lvl1) | Montages durcis, LUKS2 + LVM déverrouillé par clé USB, root désactivé, 2FA, GRUB protégé | `Arch Linux` `ANSSI` |
-| [**Durcissement Linux — niveau 2**](https://github.com/nsid2003/hardening-linux-lvl2) | sysctl ANSSI + script de conformité, PAM, SSH clé + OTP, sudo par OTP, auditd | `Arch Linux` `ANSSI` |
-| [**Durcissement Linux — niveau 3**](https://github.com/nsid2003/hardening-linux-lvl3) | Apache/PHP-FPM en HTTPS, iptables deny-by-default, fail2ban, proxy Squid à liste blanche | `Arch Linux` `iptables` |
+| [**Durcissement Linux, niveau 1**](https://github.com/nsid2003/hardening-linux-lvl1) | Montages durcis, LUKS2 + LVM déverrouillé par clé USB, root désactivé, 2FA, GRUB protégé | `Arch Linux` `ANSSI` |
+| [**Durcissement Linux, niveau 2**](https://github.com/nsid2003/hardening-linux-lvl2) | sysctl ANSSI + script de conformité, PAM, SSH clé + OTP, sudo par OTP, auditd | `Arch Linux` `ANSSI` |
+| [**Durcissement Linux, niveau 3**](https://github.com/nsid2003/hardening-linux-lvl3) | Apache/PHP-FPM en HTTPS, iptables deny-by-default, fail2ban, proxy Squid à liste blanche | `Arch Linux` `iptables` |
 
 ### Self-hosting
 
 | Projet | Contenu | Stack |
 |:--|:--|:--|
-| [**HaloHub — plateforme self-hosted pour PME**](https://github.com/nsid2003/halohub-selfhosted-platform) | 21 services derrière Traefik, SSO + 2FA Authelia, CrowdSec, supervision, 4 réseaux Docker isolés, sauvegardes chiffrées | `Docker Compose` `Traefik` `Grafana` |
+| [**HaloHub, plateforme self-hosted pour PME**](https://github.com/nsid2003/halohub-selfhosted-platform) | 21 services derrière Traefik, SSO + 2FA Authelia, CrowdSec, supervision, 4 réseaux Docker isolés, sauvegardes chiffrées | `Docker Compose` `Traefik` `Grafana` |
 
 ### Outil
 
-- [**Quiz de révision AZ-104**](https://github.com/nsid2003/az104) — 5 modules, utilisable sur mobile via [GitHub Pages](https://nsid2003.github.io/az104/)
+- [**Quiz de révision AZ-104**](https://github.com/nsid2003/az104) : 5 modules, utilisable sur mobile via [GitHub Pages](https://nsid2003.github.io/az104/)
 
 ---
 
@@ -94,11 +94,11 @@ Chaque projet a son dépôt, avec un README détaillé (architecture, captures, 
 <summary><strong>DevOps & administration système</strong></summary>
 <br/>
 
-- **Lab DevOps self-hosted** — Vagrant, Terraform, Ansible, GitLab CI/CD, K3s 3 nœuds, Prometheus/Grafana, HashiCorp Vault
-- **Serveur web Apache2 avec Ansible** *(mars 2026)* — playbooks, templates Jinja2 basés sur les facts, inventaire SSH
-- **Équilibreur de charge HAProxy** *(mars 2026)* — round-robin Nginx/Apache, health checks, page de statistiques sécurisée
-- **Serveurs web et reprise après sinistre** *(févr. 2026)* — port non standard, durcissement SSH, sauvegarde et restauration
-- **Sauvetage d'un serveur dégradé** *(févr. 2026)* — espace disque, processus incontrôlés, permissions, environnement shell d'équipe
+- **Lab DevOps self-hosted** : Vagrant, Terraform, Ansible, GitLab CI/CD, K3s 3 nœuds, Prometheus/Grafana, HashiCorp Vault
+- **Serveur web Apache2 avec Ansible** *(mars 2026)* : playbooks, templates Jinja2 basés sur les facts, inventaire SSH
+- **Équilibreur de charge HAProxy** *(mars 2026)* : round-robin Nginx/Apache, health checks, page de statistiques sécurisée
+- **Serveurs web et reprise après sinistre** *(févr. 2026)* : port non standard, durcissement SSH, sauvegarde et restauration
+- **Sauvetage d'un serveur dégradé** *(févr. 2026)* : espace disque, processus incontrôlés, permissions, environnement shell d'équipe
 
 </details>
 
@@ -106,10 +106,10 @@ Chaque projet a son dépôt, avec un README détaillé (architecture, captures, 
 <summary><strong>Réseau & systèmes</strong></summary>
 <br/>
 
-- **Infrastructure réseau multi-site, simulation ISP** *(EPITA)* — GNS3, VLAN, routage inter-réseaux, DHCP, SNAT/DNAT
-- **Infrastructure web Windows Server** — IIS, DNS local, WordPress
-- **Téléphonie sur IP** — Elastix / Asterisk, extensions, routes d'appels, SIP
-- **Sécurisation & supervision** — Zabbix, pfSense (filtrage, VPN), Wi-Fi d'entreprise
+- **Infrastructure réseau multi-site, simulation ISP** *(EPITA)* : GNS3, VLAN, routage inter-réseaux, DHCP, SNAT/DNAT
+- **Infrastructure web Windows Server** : IIS, DNS local, WordPress
+- **Téléphonie sur IP** : Elastix / Asterisk, extensions, routes d'appels, SIP
+- **Sécurisation et supervision** : Zabbix, pfSense (filtrage, VPN), Wi-Fi d'entreprise
 
 </details>
 
@@ -117,10 +117,10 @@ Chaque projet a son dépôt, avec un README détaillé (architecture, captures, 
 <summary><strong>Développement bas niveau en C (EPITA)</strong></summary>
 <br/>
 
-- **42sh** — shell POSIX : lexer/parser vers AST, `fork`/`exec`/`wait`, pipes, redirections, structures de contrôle
-- **HTTP Daemon** — serveur HTTP/1.1 en démon, I/O non bloquantes avec `epoll`, virtual hosts
-- **Malloc** — réimplémentation de `malloc`/`free`/`realloc` avec `mmap`, thread-safe (`pthread`)
-- **Minimake** — moteur de build inspiré de GNU Make, graphe de dépendances
+- **42sh** : shell POSIX : lexer/parser vers AST, `fork`/`exec`/`wait`, pipes, redirections, structures de contrôle
+- **HTTP Daemon** : serveur HTTP/1.1 en démon, I/O non bloquantes avec `epoll`, virtual hosts
+- **Malloc** : réimplémentation de `malloc`/`free`/`realloc` avec `mmap`, thread-safe (`pthread`)
+- **Minimake** : moteur de build inspiré de GNU Make, graphe de dépendances
 
 </details>
 
@@ -128,16 +128,16 @@ Chaque projet a son dépôt, avec un README détaillé (architecture, captures, 
 
 ## Certifications
 
-| | Certification |
-|:--:|:--|
-| ✅ | Microsoft Azure Fundamentals (AZ-900) |
-| 🔄 | HashiCorp Terraform Associate (004) — en préparation |
-| 🔄 | Microsoft Azure Administrator (AZ-104) — en préparation |
+| Certification | Statut |
+|:--|:--|
+| Microsoft Azure Fundamentals (AZ-900) | Obtenue |
+| HashiCorp Terraform Associate (004) | En préparation |
+| Microsoft Azure Administrator (AZ-104) | En préparation |
 
 ---
 
 <div align="center">
 
-**Ouvert aux opportunités en alternance DevOps / Cloud Engineer** · [LinkedIn](https://www.linkedin.com/in/daryl-ngassa) · [ismaelngassa720@gmail.com](mailto:ismaelngassa720@gmail.com)
+Ouvert aux opportunités en alternance DevOps / Cloud Engineer. Me contacter : [LinkedIn](https://www.linkedin.com/in/daryl-ngassa) ou [ismaelngassa720@gmail.com](mailto:ismaelngassa720@gmail.com)
 
 </div>
