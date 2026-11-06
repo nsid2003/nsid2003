@@ -1,459 +1,143 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0078d4&height=220&section=header&text=nsid2003%20%F0%9F%9A%80&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=DevOps%20%E2%80%A2%20Cloud%20%E2%80%A2%20Cybersecurity&descSize=18&descAlignY=55&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0078d4&height=200&section=header&text=Ismael%20Daryl%20NGASSA%20SIEWE&fontSize=40&fontColor=ffffff&fontAlignY=36&desc=Administrateur%20syst%C3%A8mes%20%26%20r%C3%A9seaux%20%C2%B7%20DevOps%20%C2%B7%20Cloud&descSize=18&descAlignY=56&animation=fadeIn" alt="Ismael Daryl NGASSA SIEWE"/>
 
-<!-- TYPING SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=0078D4&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%8E%93+Mast%C3%A8re+Cybers%C3%A9curit%C3%A9+%26+Cloud+%40+IPSSI;%E2%98%81%EF%B8%8F+Azure+%7C+AWS+%7C+Terraform+%7C+Kubernetes;%F0%9F%94%90+Building+Secure+%26+Scalable+Infrastructures" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- PROFILE BADGES -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daryl-ngassa-07044a223)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ismaelngassa720@gmail.com)
-
-<img src="https://komarev.com/ghpvc/?username=nsid2003&style=for-the-badge&color=0078d4&label=PROFILE+VIEWS" alt="Profile Views"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daryl_Ngassa-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daryl-ngassa)
+[![Email](https://img.shields.io/badge/Email-ismaelngassa720%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ismaelngassa720@gmail.com)
+![Localisation](https://img.shields.io/badge/Argenteuil-Île--de--France-555555?style=flat-square&logo=googlemaps&logoColor=white)
 
 </div>
 
----
-
-## 🧑‍💻 À propos de moi
-
-```yaml
-name: NGASSA SIEWE Ismael Daryl
-location: Argenteuil, France 🇫🇷
-role: Administrateur systèmes & réseaux (alternance) @ XpFibre — DevOps / exploitation
-daily_stack: [Ansible, AWX, GitLab CI/CD, Prometheus, Grafana, Zabbix]
-education: Mastère Cybersécurité & Cloud @ IPSSI (2026-2028, alternance)
-certifications:
-  - ✅ Microsoft Azure Fundamentals (AZ-900)
-  - 🔄 HashiCorp Terraform Associate (004) — en préparation
-interests:
-  - Infrastructure as Code
-  - Cloud Architecture (Azure / AWS)
-  - CI/CD Pipelines
-  - Container Orchestration
-  - Durcissement & sécurité système
-motto: "Automate everything, secure everything."
-```
-
-<br/>
-
-## 🛠️ Stack Technique
-
-<div align="center">
-
-### ☁️ Cloud & Infrastructure
-<p>
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white" alt="Vagrant"/>
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible"/>
-</p>
-
-### 🐳 Containers & Orchestration
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/K3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black" alt="K3s"/>
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm"/>
-</p>
-
-### 🔄 CI/CD & Automation
-<p>
-  <img src="https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI/CD"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
-  <img src="https://img.shields.io/badge/AWX-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="AWX"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</p>
-
-### 📊 Monitoring & Observability
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
-  <img src="https://img.shields.io/badge/Zabbix-D40000?style=for-the-badge&logo=zabbix&logoColor=white" alt="Zabbix"/>
-</p>
-
-### 🔐 Security
-<p>
-  <img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black" alt="Vault"/>
-  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard"/>
-  <img src="https://img.shields.io/badge/Snort-FF0000?style=for-the-badge&logo=snort&logoColor=white" alt="Snort"/>
-  <img src="https://img.shields.io/badge/PKI/TLS-005C84?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="PKI"/>
-  <img src="https://img.shields.io/badge/HAProxy-003366?style=for-the-badge&logo=haproxy&logoColor=white" alt="HAProxy"/>
-</p>
-
-### 💻 Languages & Scripting
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/HCL-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="HCL"/>
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
-</p>
-
-### 🖥️ OS & Tools
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ"/>
-  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-</p>
-
-</div>
+Administrateur systèmes & réseaux en alternance chez **XpFibre**, je travaille côté **exploitation et DevOps** : j'automatise, je supervise et je déploie. En parallèle, je suis en **Mastère Cybersécurité & Cloud à l'IPSSI** et je construis des projets d'infrastructure documentés de bout en bout, de l'architecture jusqu'au journal de troubleshooting.
 
 ---
 
-## 🚀 Projets
+## Ce que je fais aujourd'hui
 
-> Chaque projet ci-dessous a son dépôt, un README détaillé (architecture, captures, choix justifiés) et un journal de troubleshooting.
-> Les dépôts **archivés** de mon profil sont des exercices de formation, pas des projets.
+**Alternance — XpFibre** · Administrateur systèmes & réseaux · Courbevoie
 
-### ☁️ Cloud Azure
+- **Automatisation** des tâches d'exploitation avec Ansible, orchestrée via AWX
+- **Supervision** des applications et de l'infrastructure avec Zabbix, Prometheus et Grafana
+- **Déploiement** des applications par pipelines CI/CD GitLab
 
-| Projet | Ce que ça montre | Stack |
+**Formation — IPSSI** · Mastère Cybersécurité & Cloud · 2026-2028, alternance 3 semaines entreprise / 1 semaine école
+
+**En cours**
+
+- [TwinFleet](https://github.com/nsid2003/twinfleet) — projet de groupe : environnements staging / prod jumeaux sur AWS (Terraform, Ansible, GitHub Actions)
+- Préparation des certifications **HashiCorp Terraform Associate (004)** et **Microsoft AZ-104**
+
+---
+
+## Compétences
+
+| Domaine | Outils |
+|:--|:--|
+| **Automatisation & IaC** | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![AWX](https://img.shields.io/badge/AWX-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=flat-square&logo=vagrant&logoColor=white) |
+| **CI/CD** | ![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Supervision** | ![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square&logo=zabbix&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
+| **Cloud** | ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) |
+| **Conteneurs** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white) |
+| **Systèmes & réseau** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![HAProxy](https://img.shields.io/badge/HAProxy-003366?style=flat-square&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+| **Sécurité** | ![Durcissement ANSSI](https://img.shields.io/badge/Durcissement-ANSSI-555555?style=flat-square&logo=linux&logoColor=white) ![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white) ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white) ![Vault](https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black) ![CrowdSec](https://img.shields.io/badge/CrowdSec-F97536?style=flat-square&logoColor=white) |
+| **Langages** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white) ![HCL](https://img.shields.io/badge/HCL-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
+
+---
+
+## Projets
+
+Chaque projet a son dépôt, avec un README détaillé (architecture, captures, choix justifiés) et un journal de troubleshooting. Les dépôts **archivés** de mon profil sont des exercices de formation.
+
+### Cloud Azure
+
+| Projet | Contenu | Stack |
 |:--|:--|:--|
 | [**Infrastructure cloud hybride & CI/CD**](https://github.com/nsid2003/azure-hybrid-cloud-cicd) | On-Prem ↔ Azure de A à Z : AD DS, Hub-Spoke, Azure Policy, File Sync, Entra Connect, ACR → ACI → ACA, Azure Migrate, CI/CD OIDC + Trivy, Sentinel | `Azure` `Bicep` `GitHub Actions` `Windows Server` |
-| [**Projet HALO — VPN Site-to-Site & migration**](https://github.com/nsid2003/azure-hybrid-s2s-migration-halo) | Datacenter Hyper-V relié à Azure en IPsec/IKEv2 (OPNsense), NVA + UDR, forced tunneling, DNS hybride, Azure Arc | `Azure` `AZ-700` `OPNsense` `Hyper-V` |
-| [**Hub-Spoke multi-tiers**](https://github.com/nsid2003/azure-hub-spoke-multitier) | Azure Firewall + UDR, VMSS + Load Balancer, SQL via Bastion, RBAC, Policy, Log Analytics, Recovery Services Vault | `Azure` `AZ-104` |
+| [**Projet HALO — VPN Site-to-Site & migration**](https://github.com/nsid2003/azure-hybrid-s2s-migration-halo) | Datacenter Hyper-V relié à Azure en IPsec/IKEv2 (OPNsense), NVA + UDR, forced tunneling, DNS hybride, Azure Arc | `Azure` `OPNsense` `Hyper-V` |
+| [**Hub-Spoke multi-tiers**](https://github.com/nsid2003/azure-hub-spoke-multitier) | Azure Firewall + UDR, VMSS + Load Balancer, SQL via Bastion, RBAC, Policy, Log Analytics, Recovery Services Vault | `Azure` |
 | [**Bastion & serveur web en Terraform**](https://github.com/nsid2003/azure_terraform) | VNet segmenté, 2 NSG, Nginx via cloud-init, SSH par rebond uniquement | `Terraform` `AzureRM` |
 
-### 🟧 Cloud AWS & Infrastructure as Code
+### Cloud AWS & Infrastructure as Code
 
-| Projet | Ce que ça montre | Stack |
+| Projet | Contenu | Stack |
 |:--|:--|:--|
-| [**Secure Multi-Tenant AWS Platform**](https://github.com/nsid2003/secure-multitenant-aws-platform) | Clients isolés par VPC peering, admin par VPN OpenVPN/PKI, proxy sortant filtrant, KMS, CloudTrail, AWS Config, AWS Backup | `AWS` `Terraform` `Ansible` |
-| [**Automatisation AWS avec Terraform & Jenkins**](https://github.com/nsid2003/aws-terraform-jenkins-automation) | Job Jenkins paramétré (init / plan / apply / destroy) qui génère et applique la conf Terraform | `AWS` `Terraform` `Jenkins` |
-| [**Architecture AWS N-tiers avec ALB**](https://github.com/nsid2003/aws-ntier-terraform-alb) | ALB → 3 reverse proxies Nginx → 3 serveurs Apache privés sur 3 AZ, bastion, NAT Gateway | `AWS` `Terraform` |
-| [**TwinFleet** 🚧 *en cours, projet de groupe*](https://github.com/nsid2003/twinfleet) | Environnements jumeaux staging / prod depuis les mêmes modules Terraform et rôles Ansible, workflow Git par PR | `AWS` `Terraform` `Ansible` `GitHub Actions` |
+| [**Secure Multi-Tenant AWS Platform**](https://github.com/nsid2003/secure-multitenant-aws-platform) | Clients isolés par VPC peering, administration par VPN OpenVPN/PKI, proxy sortant filtrant, KMS, CloudTrail, AWS Config, AWS Backup | `AWS` `Terraform` `Ansible` |
+| [**Automatisation AWS avec Terraform & Jenkins**](https://github.com/nsid2003/aws-terraform-jenkins-automation) | Job Jenkins paramétré (init / plan / apply / destroy) qui génère et applique la configuration Terraform | `AWS` `Terraform` `Jenkins` |
+| [**Architecture AWS multi-tiers avec ALB**](https://github.com/nsid2003/aws-ntier-terraform-alb) | ALB → 3 reverse proxies Nginx → 3 serveurs Apache privés sur 3 AZ, bastion, NAT Gateway | `AWS` `Terraform` |
+| [**TwinFleet**](https://github.com/nsid2003/twinfleet) *(en cours, projet de groupe)* | Environnements staging / prod jumeaux depuis les mêmes modules Terraform et rôles Ansible, workflow Git par Pull Requests | `AWS` `Terraform` `Ansible` `GitHub Actions` |
 
-### 🛡️ Sécurité système
+### Sécurité système
 
-| Projet | Ce que ça montre | Stack |
+| Projet | Contenu | Stack |
 |:--|:--|:--|
 | [**Durcissement Linux — niveau 1**](https://github.com/nsid2003/hardening-linux-lvl1) | Montages durcis, LUKS2 + LVM déverrouillé par clé USB, root désactivé, 2FA, GRUB protégé | `Arch Linux` `ANSSI` |
 | [**Durcissement Linux — niveau 2**](https://github.com/nsid2003/hardening-linux-lvl2) | sysctl ANSSI + script de conformité, PAM, SSH clé + OTP, sudo par OTP, auditd | `Arch Linux` `ANSSI` |
 | [**Durcissement Linux — niveau 3**](https://github.com/nsid2003/hardening-linux-lvl3) | Apache/PHP-FPM en HTTPS, iptables deny-by-default, fail2ban, proxy Squid à liste blanche | `Arch Linux` `iptables` |
 
-### 🏠 Self-hosting
+### Self-hosting
 
-| Projet | Ce que ça montre | Stack |
+| Projet | Contenu | Stack |
 |:--|:--|:--|
 | [**HaloHub — plateforme self-hosted pour PME**](https://github.com/nsid2003/halohub-selfhosted-platform) | 21 services derrière Traefik, SSO + 2FA Authelia, CrowdSec, supervision, 4 réseaux Docker isolés, sauvegardes chiffrées | `Docker Compose` `Traefik` `Grafana` |
 
-### 🧰 Outils perso
+### Outil
 
 - [**Quiz de révision AZ-104**](https://github.com/nsid2003/az104) — 5 modules, utilisable sur mobile via [GitHub Pages](https://nsid2003.github.io/az104/)
 
 ---
 
-## 🗂️ Autres réalisations
+## Autres réalisations
 
-<sub>Projets de formation et d'alternance sans dépôt public.</sub>
-
-<br/>
-
-### ⚙️ DevOps & Infrastructure as Code
+<sub>Projets de formation sans dépôt public.</sub>
 
 <details>
-<summary>🏠 <strong>Self-Hosted DevOps Lab</strong> &nbsp;—&nbsp; Infrastructure enterprise-grade complète</summary>
+<summary><strong>DevOps & administration système</strong></summary>
 <br/>
 
-Déploiement d'un lab complet reproduisant un environnement enterprise-grade en local. Chaque composant est provisionné et configuré de manière entièrement automatisée.
+- **Lab DevOps self-hosted** — Vagrant, Terraform, Ansible, GitLab CI/CD, K3s 3 nœuds, Prometheus/Grafana, HashiCorp Vault
+- **Serveur web Apache2 avec Ansible** *(mars 2026)* — playbooks, templates Jinja2 basés sur les facts, inventaire SSH
+- **Équilibreur de charge HAProxy** *(mars 2026)* — round-robin Nginx/Apache, health checks, page de statistiques sécurisée
+- **Serveurs web et reprise après sinistre** *(févr. 2026)* — port non standard, durcissement SSH, sauvegarde et restauration
+- **Sauvetage d'un serveur dégradé** *(févr. 2026)* — espace disque, processus incontrôlés, permissions, environnement shell d'équipe
 
-| Composant | Technologie |
-|:---|:---|
-| Provisioning des VMs | Vagrant |
-| Infrastructure as Code | Terraform |
-| Gestion de configuration | Ansible |
-| Pipelines CI/CD | GitLab CI/CD |
-| Orchestration de conteneurs | K3s (3 nœuds) |
-| Monitoring | Prometheus + Grafana |
-| Gestion des secrets | HashiCorp Vault |
+</details>
+
+<details>
+<summary><strong>Réseau & systèmes</strong></summary>
+<br/>
+
+- **Infrastructure réseau multi-site, simulation ISP** *(EPITA)* — GNS3, VLAN, routage inter-réseaux, DHCP, SNAT/DNAT
+- **Infrastructure web Windows Server** — IIS, DNS local, WordPress
+- **Téléphonie sur IP** — Elastix / Asterisk, extensions, routes d'appels, SIP
+- **Sécurisation & supervision** — Zabbix, pfSense (filtrage, VPN), Wi-Fi d'entreprise
+
+</details>
+
+<details>
+<summary><strong>Développement bas niveau en C (EPITA)</strong></summary>
+<br/>
+
+- **42sh** — shell POSIX : lexer/parser vers AST, `fork`/`exec`/`wait`, pipes, redirections, structures de contrôle
+- **HTTP Daemon** — serveur HTTP/1.1 en démon, I/O non bloquantes avec `epoll`, virtual hosts
+- **Malloc** — réimplémentation de `malloc`/`free`/`realloc` avec `mmap`, thread-safe (`pthread`)
+- **Minimake** — moteur de build inspiré de GNU Make, graphe de dépendances
 
 </details>
 
 ---
 
-<details>
-<summary>📦 <strong>Automatisation et Provisioning d'Infrastructure (IaC)</strong></summary>
-<br/>
+## Certifications
 
-Conception et déploiement d'une infrastructure entièrement automatisée pour le provisionnement des environnements de développement et de production.
-
-- **Infrastructure as Code** — Déploiement reproductible des ressources serveur via Terraform
-- **Gestion de configuration** — Standardisation des configurations système et applicative via playbooks Ansible
-- **Virtualisation** — Gestion d'environnements Vagrant pour garantir la parité iso-prod des environnements de test
-
-`Terraform` `Ansible` `Vagrant`
-
-</details>
+| | Certification |
+|:--:|:--|
+| ✅ | Microsoft Azure Fundamentals (AZ-900) |
+| 🔄 | HashiCorp Terraform Associate (004) — en préparation |
+| 🔄 | Microsoft Azure Administrator (AZ-104) — en préparation |
 
 ---
-
-<details>
-<summary>🌐 <strong>Déploiement d'un serveur web Apache2 avec Ansible</strong> &nbsp;—&nbsp; mars 2026</summary>
-<br/>
-
-Automatisation complète du déploiement et de la configuration d'un serveur Apache2 via Ansible, en remplacement des tâches d'administration manuelles par un processus de provisioning fiable, reproductible et scalable.
-
-- **Playbooks Ansible (YAML)** — Automatisation de l'installation, du démarrage du service et de l'élévation des privilèges (`become: true`)
-- **Templating dynamique Jinja2** — Génération de pages HTML personnalisées exploitant les Ansible Facts (hostname, variables custom)
-- **Gestion de l'inventaire SSH** — Configuration du fichier `hosts.ini`, gestion des utilisateurs et authentification par clés SSH
-- **Environnement virtualisé (VirtualBox)** — Configuration réseau Bridge, résolution des conflits Machine-ID lors du clonage de VMs
-- **Gestion des ports** — Modification dynamique de `ports.conf` via Ansible pour préparer des architectures plus complexes
-
-`Ansible` `Apache2` `Jinja2` `Linux` `VirtualBox`
-
-</details>
-
----
-
-<details>
-<summary>⚖️ <strong>Déploiement d'un équilibreur de charge HAProxy</strong> &nbsp;—&nbsp; mars 2026</summary>
-<br/>
-
-Mise en place d'une infrastructure web répartie avec HAProxy pour assurer la haute disponibilité et l'optimisation des performances en environnement Linux.
-
-- **Reverse Proxy** — Interception du trafic HTTP entrant (port 80) et redirection vers les serveurs back-end du réseau interne
-- **Load Balancing Round-Robin** — Distribution équitable des requêtes entre des serveurs Nginx et Apache2 hétérogènes
-- **Monitoring en temps réel** — Déploiement et sécurisation du tableau de bord de statistiques HAProxy
-- **Health Checks** — Vérifications continues de l'état des serveurs back-end pour garantir la disponibilité du service
-- **Administration système** — Débogage réseau avancé avec `systemd`, `journalctl` et `ss` (analyse de ports TCP)
-
-`HAProxy` `Nginx` `Apache2` `Linux`
-
-</details>
-
----
-
-<details>
-<summary>🔒 <strong>Déploiement de serveurs Web et reprise après sinistre</strong> &nbsp;—&nbsp; févr. 2026</summary>
-<br/>
-
-Déploiement, sécurisation et maintenance d'un environnement de services web axé sur la résilience opérationnelle.
-
-- Configuration d'un serveur web sur port non standard avec gestion fine des paquets et des services
-- Sécurisation de la couche d'administration via clés SSH et audits réseau
-- Analyse des anomalies de trafic avec des outils de traitement de texte pour identifier des menaces potentielles
-- Implémentation d'une stratégie de sauvegarde et de restauration robuste pour la protection des données
-
-`Linux` `SSH` `Administration système`
-
-</details>
-
----
-
-<details>
-<summary>🛠️ <strong>Sauvetage et Initialisation du Système</strong> &nbsp;—&nbsp; févr. 2026</summary>
-<br/>
-
-Stabilisation d'un environnement serveur dégradé à travers quatre défis critiques d'administration système.
-
-- **Nettoyage du système de fichiers** — Localisation et suppression des fichiers volumineux, organisation des logs pour récupérer de l'espace disque
-- **Atténuation des processus déviants** — Diagnostic de charge élevée et terminaison contrôlée des processus incontrôlables
-- **Configuration sécurisée** — Audit des permissions de répertoires et application de contrôles d'accès stricts
-- **Standardisation de l'environnement** — Variables shell persistantes et alias d'équipe pour uniformiser les environnements de développement
-
-`Linux` `Shell` `Administration système`
-
-</details>
-
----
-
-<br/>
-
-### 🌐 Réseau & Systèmes
-
-<details>
-<summary>🗺️ <strong>Conception d'une Infrastructure Réseau Multi-Site (Simulation ISP)</strong> &nbsp;—&nbsp; EPITA</summary>
-<br/>
-
-Simulation d'une architecture réseau globale de type « Internet » interconnectant fournisseurs d'accès (ISP) et réseaux d'entreprises.
-
-- **Routing & Switching** — Configuration de routeurs et switchs, segmentation VLAN et routage inter-réseaux (Backbone, ISP, Clients)
-- **Services réseau** — Déploiement de serveurs DHCP pour l'adressage dynamique et gestion des passerelles résidentielles
-- **Sécurité & NAT** — Configuration SNAT/DNAT/Masquerading et règles de pare-feu pour sécuriser les sous-réseaux
-
-`GNS3` `TCP/IP` `VLAN` `NAT` `DHCP`
-
-</details>
-
----
-
-<details>
-<summary>🖥️ <strong>Déploiement d'Infrastructure Web sous Windows Server (IIS / WordPress)</strong></summary>
-<br/>
-
-Conception et mise en œuvre d'une architecture web complète hébergée sur Windows Server.
-
-- **IIS** — Installation et configuration avancée du rôle Internet Information Services pour l'hébergement de sites dynamiques
-- **DNS** — Configuration d'un serveur DNS local avec gestion de zones et résolution de domaines personnalisés (`wordpress.local`)
-- **WordPress** — Déploiement applicatif complet incluant la gestion des prérequis techniques et des bases de données
-- **Architecture Client-Serveur** — Interconnexion réseau et validation des accès depuis des postes clients Windows
-
-`Windows Server` `IIS` `DNS` `WordPress`
-
-</details>
-
----
-
-<details>
-<summary>📞 <strong>Déploiement d'une Solution de VoIP (Téléphonie sur IP)</strong></summary>
-<br/>
-
-Mise en place d'une infrastructure de téléphonie interne pour moderniser les communications d'entreprise.
-
-- **Architecture IPBX** — Installation et configuration du serveur Elastix (basé sur Asterisk)
-- **Gestion des communications** — Paramétrage des extensions, routes d'appels et services pour assurer la fluidité des communications internes
-- **Protocole SIP** — Configuration et validation des flux voix sur le réseau
-
-`Elastix` `Asterisk` `VoIP` `SIP`
-
-</details>
-
----
-
-<details>
-<summary>🔍 <strong>Sécurisation et Monitoring d'Infrastructure IT</strong></summary>
-<br/>
-
-Mise en place d'une architecture sécurisée et supervisée pour garantir la disponibilité et la sécurité des services.
-
-- **Supervision proactive** — Déploiement de Zabbix pour le monitoring des serveurs et équipements réseau avec configuration d'alertes
-- **Sécurité périmétrique** — Configuration de pfSense pour la gestion des accès, le filtrage de paquets et l'implémentation de VPN
-- **Réseau sans fil** — Déploiement sécurisé d'un réseau Wi-Fi d'entreprise
-
-`Zabbix` `pfSense` `VPN` `Wi-Fi`
-
-</details>
-
----
-
-<br/>
-
-### 💻 Développement Bas Niveau — EPITA
-
-<details>
-<summary>🐚 <strong>42sh — Interpréteur de Commandes UNIX (Shell POSIX)</strong></summary>
-<br/>
-
-Développement d'un shell complet conforme à la norme POSIX, reproduisant le comportement de Bash.
-
-- **Analyse syntaxique** — Conception d'un Lexer/Parser transformant les commandes utilisateur en Arbre Syntaxique Abstrait (AST)
-- **Gestion des processus** — Manipulation avancée des appels système (`fork`, `exec`, `wait`) pour l'exécution et le contrôle des jobs
-- **Fonctionnalités avancées** — Pipes, redirections, substitutions de commandes, structures de contrôle (`if`, `while`, `for`)
-
-`C` `POSIX` `UNIX` `Parsing`
-
-</details>
-
----
-
-<details>
-<summary>🌍 <strong>HTTP Daemon — Serveur Web HTTP/1.1</strong></summary>
-<br/>
-
-Réalisation complète d'un serveur web respectant les standards RFC du protocole HTTP/1.1, conçu pour fonctionner en tant que démon système.
-
-- **Architecture Daemon UNIX** — Transformation en service d'arrière-plan avec gestion des signaux pour un arrêt propre (*graceful shutdown*)
-- **Haute performance** — I/O non bloquantes et multiplexage via `epoll` pour gérer un grand nombre de connexions simultanées
-- **Traitement des requêtes** — Parsing HTTP complet (méthodes GET/HEAD, headers, codes de réponse et erreurs)
-- **Configuration dynamique** — Gestion des Virtual Hosts, ports et routes via fichiers de configuration
-
-`C` `HTTP/1.1` `epoll` `UNIX`
-
-</details>
-
----
-
-<details>
-<summary>🧠 <strong>Malloc — Librairie d'Allocation Mémoire Dynamique</strong></summary>
-<br/>
-
-Réécriture d'une bibliothèque d'allocation mémoire (`malloc`, `free`, `realloc`) en remplacement de l'implémentation standard de la libc.
-
-- **Gestion mémoire bas niveau** — Manipulation de la mémoire virtuelle via les appels système `mmap`/`munmap`
-- **Thread-Safety** — Sécurisation de l'allocateur pour les environnements multithreadés avec mutex POSIX (`pthread`)
-- **Optimisation** — Algorithmes de gestion de blocs pour réduire la fragmentation et optimiser les métadonnées
-
-`C` `mmap` `pthreads` `POSIX`
-
-</details>
-
----
-
-<details>
-<summary>⚙️ <strong>Minimake — Moteur de Production Logicielle</strong></summary>
-<br/>
-
-Développement d'un outil d'automatisation de compilation inspiré de GNU Make.
-
-- **Parsing de Makefiles** — Analyse syntaxique des fichiers de configuration (règles, variables, cibles)
-- **Graphe de dépendances** — Construction d'un graphe pour déterminer l'ordre d'exécution des tâches et éviter les recompilations inutiles via la gestion des dates de modification
-- **Exécution** — Orchestration et lancement des commandes shell nécessaires à la construction du projet
-
-`C` `Makefile` `Build Systems` `Parsing`
-
-</details>
-
----
-
-## 🎓 Certifications
 
 <div align="center">
 
-| Status | Certification | Badge |
-|:------:|:-------------|:-----:|
-| ✅ | **Microsoft Azure Fundamentals (AZ-900)** | <img src="https://img.shields.io/badge/AZ--900-Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" /> |
-| 🔄 | **HashiCorp Terraform Associate (004)** | <img src="https://img.shields.io/badge/Terraform_Assoc-In_Progress-7B42BC?style=flat-square&logo=terraform&logoColor=white" /> |
-| 🎯 | **AZ-104 / AZ-400** | <img src="https://img.shields.io/badge/Next_Target-Planned-555555?style=flat-square&logo=microsoftazure&logoColor=white" /> |
+**Ouvert aux opportunités en alternance DevOps / Cloud Engineer** · [LinkedIn](https://www.linkedin.com/in/daryl-ngassa) · [ismaelngassa720@gmail.com](mailto:ismaelngassa720@gmail.com)
 
 </div>
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nsid2003&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=0078d4&icon_color=0078d4&text_color=c9d1d9&ring_color=0078d4" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=nsid2003&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=0078d4&ring=0078d4&fire=FF6600&currStreakLabel=0078d4&sideLabels=c9d1d9&dates=555555" alt="GitHub Streak"/>
-
-<br/><br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nsid2003&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=0078d4&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-
-<br/><br/>
-
-<!-- ACTIVITY GRAPH -->
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=nsid2003&theme=github-compact&hide_border=true&bg_color=0d1117&color=0078d4&line=0078d4&point=FF6600&area=true&area_color=0078d4" alt="Activity Graph"/>
-
-</div>
-
----
-
-## 🤝 Let's Connect!
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/daryl-ngassa-07044a223"><img src="https://img.shields.io/badge/-daryl--ngassa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:ismaelngassa720@gmail.com"><img src="https://img.shields.io/badge/-ismaelngassa720@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/nsid2003"><img src="https://img.shields.io/badge/-nsid2003-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-
-<br/><br/>
-
-💬 **Ouvert aux opportunités en alternance DevOps / Cloud Engineer !**
-
-</div>
-
-<!-- FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0078d4&height=120&section=footer"/>
